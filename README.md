@@ -3,7 +3,10 @@
 这个主要是给家里老人人用的一款应用，随着智能机的普及，家里人都用上了智能机，但对于老人来说，由于不识字，很难使用手机来看视频，听音乐。为了解决看视频的问题，写了这个应用
 
 # 截图
+
 运行阄果如下所示：
+
+
 ![主界面](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/main.png) ![任务界面](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/function.png) ![同步下载电视剧](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/sync.png) ![删除电视剧](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/delete.png)
 
 
