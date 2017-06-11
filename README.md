@@ -1,3 +1,4 @@
+
 # 本地电视剧视频播放器
 
 这个主要是给家里老人人用的一款应用，随着智能机的普及，家里人都用上了智能机，但对于老人来说，由于不识字，很难使用手机来看视频，听音乐。为了解决看视频的问题，写了这个应用
@@ -12,7 +13,7 @@
 
 # 用法
 1，进入功脂列表界面
-2，点击进入同步视频，然后程序默认会从<http://codingsky.oss-cn-hangzhou.aliyuncs.com/cdn/xvideo/videos.json>下载一个json文件，json文件列出了服务器上已有的电视据信息，如截图所示，我准备了2个电视据。
+2，点击进入同步视频，然后程序默认会从<http://codingsky.oss-cn-hangzhou.aliyuncs.com/cdn/xvideo/videos_example.json>下载一个json文件，json文件列出了服务器上已有的电视据信息，如截图所示，我准备了2个电视据。
 
 后续json可能会失效，所以在这里列出json的结构，如下所示:
 ![Json结构](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/json.png)
