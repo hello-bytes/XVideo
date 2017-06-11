@@ -67,13 +67,9 @@ public class FunctionView {
     public void onFunctionClick(FuncitonItem item){
         switch ((int)item.functionId){
             case SCAN_TO_ADDMUSIC:
-                /*Intent intent = new Intent(_host.get(), CaptureActivity.class);
-                _host.get().startActivityForResult(intent, ACTIVITY_RESULTCODE_SCAN);*/
-
                 Intent intent = new Intent(_host.get(),SelectActivity.class);
-                intent.putExtra("url","https://codingsky.oss-cn-hangzhou.aliyuncs.com/cdn/xvideo/videos.json");
+                intent.putExtra("url","https://codingsky.oss-cn-hangzhou.aliyuncs.com/cdn/xvideo/videos_example.json");
                 _host.get().startActivity(intent);
-
                 break;
             case DELETE_VIDEO:
                 onDeleteVideo();
@@ -173,24 +169,6 @@ public class FunctionView {
     private void clearFolder(String folder){
         String path  = _host.get().getFilesDir().getPath() + "/video/" + folder;
         deleteDirectory(path);
-        /*File fileObj = new File(path);
-        String[] files = fileObj.list();
-        for(String file : files){
-            File currentDeleteFile = new File(path,file);
-            if(currentDeleteFile.isFile()){
-                currentDeleteFile.delete();
-            }else{
-                deleteDirectory(path + "/" + file);
-            }
-        }*/
-
-
-
-
-        //Intent startIntent = new Intent("com.newjourney.video.download.clear");
-        //LocalBroadcastManager manager = LocalBroadcastManager.getInstance(_host.get());
-        //manager.sendBroadcast(startIntent);
-
         Toast.makeText(_host.get(),"已删除",Toast.LENGTH_LONG).show();
     }
 
@@ -263,7 +241,7 @@ public class FunctionView {
         public FunctionAdapt(){
             _items = new Vector<>();
             _items.add(new FuncitonItem(SCAN_TO_ADDMUSIC, R.mipmap.add, "同步视频"));
-            _items.add(new FuncitonItem(DELETE_VIDEO, R.mipmap.add, "删除视频"));
+            _items.add(new FuncitonItem(DELETE_VIDEO, R.mipmap.delete, "删除视频"));
             _items.add(new FuncitonItem(CLEAR_ALL_MUSIC, R.mipmap.clear ,"清除本地所有视频"));
 
             _ayoutInflater = _host.get().getLayoutInflater();
