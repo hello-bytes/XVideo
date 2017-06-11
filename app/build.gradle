@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        applicationId "com.newjourney.video"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1222
+        versionName "1.0.1222"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.yanzhenjie.nohttp:nohttp:1.1.1'
+    compile 'fm.jiecao:jiecaovideoplayer:5.5.4'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+}
