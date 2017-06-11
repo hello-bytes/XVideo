@@ -4,15 +4,7 @@
 
 # 截图
 运行阄果如下所示：
-![主界面](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/main.png)
-
-![任务界面](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/function.png)
-
-
-![同步下载电视剧](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/sync.png)
-
-
-![删除电视剧](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/delete.png)
+![主界面](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/main.png) ![任务界面](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/function.png) ![同步下载电视剧](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/sync.png) ![删除电视剧](https://raw.githubusercontent.com/shishengyi/XVideo/master/screen/delete.png)
 
 
 # 用法
